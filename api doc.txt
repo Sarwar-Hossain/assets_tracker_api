@@ -1,0 +1,8 @@
+Automated Api Documentation link: https://documenter.getpostman.com/view/18185709/2s93XsWkFQ
+
+Few words about project: As you mention in Bonus Point that many phone Companies can manage their enterprise 
+subscribers. That means SAAS Software. SAAS Software Build based on Multi-tenancy concept. There are 4 Multi-tenancy concept. 
+Which one shoud follow depends on requirements and situation. As this is small project so i follow - 
+Shared Database, Shared Schema and Tenant ID: In this approach, all tenants share the same database and schema, 
+but each record in the database includes a tenant ID. This allows the application to filter and query data 
+by tenant ID to ensure that each tenant only sees their own data. So i followed this concept.
